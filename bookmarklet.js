@@ -1,7 +1,7 @@
 var aardvark = {
 
 isBookmarklet: true,
-resourcePrefix: "http://localhost/aardvark/",
+resourcePrefix: "http://localhost/readable/",
 srcFiles: [
   'aardvarkStrings.js',
   'aardvarkUtils.js',
