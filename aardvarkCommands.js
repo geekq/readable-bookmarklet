@@ -403,6 +403,7 @@ return true;
 
 //--------------------------------------------------------
 blackOnWhite : function (node, isLink) {
+  console.log("in blackOnWhite");
 // this could be done way better using the createCSSRule thing
 switch (node.nodeType) {
   case 1: // ELEMENT_NODE
@@ -415,8 +416,8 @@ switch (node.nodeType) {
       if (isLink)
         node.style.textDecoration = "underline";
       node.style.backgroundColor = "#fff";
-      node.style.fontFamily = "arial";
-      node.style.fontSize = "13px";
+      // node.style.fontFamily = "arial";
+      // node.style.fontSize = "13px";
       node.style.textAlign = "left";
       node.align = "left";
       node.style.backgroundImage = "";

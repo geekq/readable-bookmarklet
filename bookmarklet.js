@@ -1,7 +1,7 @@
 var aardvark = {
 
 isBookmarklet: true,
-resourcePrefix: "http://karmatics.com/aardvark/",
+resourcePrefix: "http://localhost/aardvark/",
 srcFiles: [
   'aardvarkStrings.js',
   'aardvarkUtils.js',
