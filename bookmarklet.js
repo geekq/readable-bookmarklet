@@ -1,7 +1,8 @@
 var aardvark = {
 
 isBookmarklet: true,
-resourcePrefix: "http://localhost/readable/",
+//resourcePrefix: "http://localhost/readable/",
+resourcePrefix: "https://localhost:3131/readable-bookmarklet/",
 srcFiles: [
   'aardvarkStrings.js',
   'aardvarkUtils.js',
@@ -31,8 +32,9 @@ loadObject: function  (obj) {
     // copy our own functions etc over aardvark's
     
     // start aardvark and show its help tip
-    this.start ();
-    this.showHelpTip(0);
+    alert('Start aardvark bei typing into console: aardvark.start()');
+    // this.start ();
+    // this.showHelpTip(0);
     
     // add our custom commands
     // aardvark.addCommand ("examine", MyFunctions.browseElement);
